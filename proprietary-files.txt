@@ -66,6 +66,10 @@ system/media/audio/ringtones/Vigor.ogg:product/media/audio/ringtones/Vigor.ogg
 system/media/audio/ui/dynamic_alarm_speech.ogg:product/media/audio/alarms/dynamic_alarm_speech.ogg
 system/media/audio/ui/miui_week_ringtone.ogg:product/media/audio/alarms/miui_week_ringtone.ogg
 
+# UI - Charge
+system/media/audio/ui/charge_wireless.ogg:product/media/audio/notifications/charge_wireless.ogg
+system/media/audio/ui/charging.ogg:product/media/audio/notifications/charging.ogg
+
 # UI - Notifications
 system/media/audio/ui/AfricaAnimals_preview.ogg:product/media/audio/notifications/AfricaAnimals_preview.ogg
 system/media/audio/ui/AmazonAnimals_preview.ogg:product/media/audio/notifications/AmazonAnimals_preview.ogg
