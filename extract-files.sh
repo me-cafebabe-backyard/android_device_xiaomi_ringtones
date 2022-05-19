@@ -8,6 +8,11 @@
 
 set -e
 
+if ! which ffmpeg; then
+    echo "Please install ffmpeg first"
+    exit 1
+fi
+
 DEVICE=ringtones
 VENDOR=xiaomi
 
@@ -55,18 +60,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/libsample1.so)
-            sed -i 's|/data/misc/sample1|/data/misc/sample2|g' "${2}"
-            ;;
-        vendor/lib64/libsample2.so)
-            "${PATCHELF}" --remove-needed "libsample3.so" "${2}"
-            "${PATCHELF}" --add-needed "libsample4.so" "${2}"
-            ;;
-        vendor/lib/libsample5.so)
-            "${PATCHELF}" --replace-needed "libsample6.so" "libsample7.so" "${2}"
-            ;;
-        vendor/lib/libsample7.so)
-            "${PATCHELF}" --set-soname "libsample7.so" "${2}"
+        product/media/audio/alarms/dynamic_alarm_speech.ogg|product/media/audio/alarms/miui_week_ringtone.ogg)
+            mv "${2}" "${2}.orig"
+            ffmpeg -i "${2}.orig" -filter:a "volume=2" "${2}"
+            rm "${2}.orig"
             ;;
     esac
 }
