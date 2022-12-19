@@ -100,7 +100,6 @@ system/media/audio/ui/Bird_Notification_1.ogg:product/media/audio/notifications/
 system/media/audio/ui/Bird_Notification_2.ogg:product/media/audio/notifications/Bird_Notification_2.ogg
 system/media/audio/ui/Cicada_Notification_1.ogg:product/media/audio/notifications/Cicada_Notification_1.ogg
 system/media/audio/ui/Cicada_Notification_2.ogg:product/media/audio/notifications/Cicada_Notification_2.ogg
-system/media/audio/ui/InCallNotification.ogg:product/media/audio/notifications/InCallNotification.ogg
 system/media/audio/ui/IncomingMessage.ogg:product/media/audio/notifications/IncomingMessage.ogg
 system/media/audio/ui/StoneSkimming_preview.ogg:product/media/audio/notifications/StoneSkimming_preview.ogg
 system/media/audio/ui/WaterDropNotificationDay1.ogg:product/media/audio/notifications/WaterDropNotificationDay1.ogg
