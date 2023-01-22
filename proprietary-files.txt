@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from qti/qssi/qssi:12/SKQ1.211006.001/V13.0.4.0.SJBCNXM:user/release-keys
+# vela Package version: Meitu/vela/vela:11/RKQ1.200826.002/V12.5.5.0.RFECNXM:user/release-keys
 
 # Alarms
 system/media/audio/alarms/AlarmClock.ogg:product/media/audio/alarms/AlarmClock.ogg
@@ -34,6 +35,18 @@ system/media/audio/notifications/Spring.ogg:product/media/audio/notifications/Sp
 system/media/audio/notifications/Swoosh.ogg:product/media/audio/notifications/Swoosh.ogg
 system/media/audio/notifications/WindChime.ogg:product/media/audio/notifications/WindChime.ogg
 
+# Notifications - from vela
+system/media/audio/notifications/ASend.ogg:product/media/audio/notifications/ASend.ogg
+system/media/audio/notifications/Bells.ogg:product/media/audio/notifications/Bells.ogg
+system/media/audio/notifications/Child.ogg:product/media/audio/notifications/Child.ogg
+system/media/audio/notifications/Dance.ogg:product/media/audio/notifications/Dance.ogg
+system/media/audio/notifications/Expect.ogg:product/media/audio/notifications/Expect.ogg
+system/media/audio/notifications/Game.ogg:product/media/audio/notifications/Game.ogg
+system/media/audio/notifications/MakeWishes.ogg:product/media/audio/notifications/MakeWishes.ogg
+system/media/audio/notifications/Robot.ogg:product/media/audio/notifications/Robot.ogg
+system/media/audio/notifications/Surprise.ogg:product/media/audio/notifications/Surprise.ogg
+system/media/audio/notifications/notice_audition.ogg:product/media/audio/notifications/notice_audition.ogg
+
 # Ringtones
 system/media/audio/ringtones/AcousticGuitar.ogg:product/media/audio/ringtones/AcousticGuitar.ogg
 system/media/audio/ringtones/Atlantis.ogg:product/media/audio/ringtones/Atlantis.ogg
@@ -61,6 +74,23 @@ system/media/audio/ringtones/Reveries.ogg:product/media/audio/ringtones/Reveries
 system/media/audio/ringtones/SpaceAge.ogg:product/media/audio/ringtones/SpaceAge.ogg
 system/media/audio/ringtones/ToyRobot.ogg:product/media/audio/ringtones/ToyRobot.ogg
 system/media/audio/ringtones/Vigor.ogg:product/media/audio/ringtones/Vigor.ogg
+
+# Ringtones - from vela
+system/media/audio/ringtones/Blues.ogg:product/media/audio/ringtones/Blues.ogg
+system/media/audio/ringtones/Citylight.ogg:product/media/audio/ringtones/Citylight.ogg
+system/media/audio/ringtones/Countryside.ogg:product/media/audio/ringtones/Countryside.ogg
+system/media/audio/ringtones/Echo.ogg:product/media/audio/ringtones/Echo.ogg
+system/media/audio/ringtones/FrenchChic.ogg:product/media/audio/ringtones/FrenchChic.ogg
+system/media/audio/ringtones/Glockenspiel.ogg:product/media/audio/ringtones/Glockenspiel.ogg
+system/media/audio/ringtones/Glorious.ogg:product/media/audio/ringtones/Glorious.ogg
+system/media/audio/ringtones/GreenAndBlue.ogg:product/media/audio/ringtones/GreenAndBlue.ogg
+system/media/audio/ringtones/HallOfMemories.ogg:product/media/audio/ringtones/HallOfMemories.ogg
+system/media/audio/ringtones/Hawaii.ogg:product/media/audio/ringtones/Hawaii.ogg
+system/media/audio/ringtones/Martix.ogg:product/media/audio/ringtones/Martix.ogg
+system/media/audio/ringtones/Monet.ogg:product/media/audio/ringtones/Monet.ogg
+system/media/audio/ringtones/PassionFlower.ogg:product/media/audio/ringtones/PassionFlower.ogg
+system/media/audio/ringtones/Raindrops.ogg:product/media/audio/ringtones/Raindrops.ogg
+system/media/audio/ringtones/SecretGarden.ogg:product/media/audio/ringtones/SecretGarden.ogg
 
 # UI - Alarms
 system/media/audio/ui/dynamic_alarm_speech.ogg:product/media/audio/alarms/dynamic_alarm_speech.ogg
